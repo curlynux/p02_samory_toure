@@ -1,0 +1,29 @@
+footer
+{
+    background: rgb(242, 242, 242);
+}
+
+footer div
+{
+    text-align: left;
+    margin-left: 1em;
+    padding-bottom: 1em;
+}
+
+footer div:nth-child(1)
+{
+    padding-top: 1em;
+}
+
+footer div p
+{
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+footer div li
+{
+    margin: 1em;
+    width: max-content;
+    
+}
