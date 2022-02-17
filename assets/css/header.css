@@ -27,6 +27,12 @@ header
     display: flex;
 }
 
+header > img
+{
+    display: flex;
+    align-self: center;
+}
+
 header ul
 {
     display: flex;
@@ -67,7 +73,7 @@ h1
     margin-left: 5%;
 }
 
-header p 
+header > p 
 {
     margin-left: 5%;
     margin-bottom: 10%;
@@ -183,4 +189,37 @@ ul i.fas
     right: 2px;
     background: rgb(222, 235, 255);
     position: relative;
+}
+
+i.fa-info
+{
+    color: rgb(0, 101, 252);
+    border-radius: 100px;
+    border: rgb(217, 217, 217) 1px solid;
+    padding: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+span.border
+{
+    margin-right: 3%;
+    border: rgb(217, 217, 217) 1px solid;
+    border-radius: 100px;
+}
+
+div.infod
+{
+    margin-left: 3%;
+}
+
+div.info p
+{
+    float: left;
+    position: absolute;
+}
+
+p.info
+{
+    margin-left: 15%;
 }
