@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-weight: bold;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    font-weight: bold;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+    font-weight: bold;
+  }
+
 * 
 {
     font-family: 'Poppins';
@@ -88,12 +104,17 @@ header form div a.loop
     
     border: #0165fb 3px solid;
     background-color: #0165fb;
-    border-radius: 35%;
-    padding: 4%;
-    width: 16%;
-    float: right;
+    border-radius: 30%;
+    margin-top: 0.1em;
+    margin-left: 5%;
+    padding: 0.7em;
+    left: 80%;
     position: absolute;
-    right: 5%;
+}
+
+.fa-magnifying-glass
+{
+    filter: brightness(0) invert(1);
 }
 
 header form div a img.image
@@ -101,22 +122,6 @@ header form div a img.image
     float: right;
     filter: brightness(0) invert(1);
 }
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
-    font-weight: bold;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-    font-weight: bold;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
-    font-weight: bold;
-  }
 
 header form div a.gps
 {
@@ -126,16 +131,10 @@ header form div a.gps
     border-radius: 30%;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
-    width: 14%;
     margin-top: 0.1em;
     margin-left: 5%;
-    padding: 0.5em;
+    padding: 0.7em;
     position: absolute;
-}
-
-header form div img.gps
-{
-    width: 100%;
 }
 
 div.filtre
@@ -152,9 +151,10 @@ div.filtre ul
 div.filtre ul li
 {
     float: left;
-    width: max-content;
-    margin-bottom: 3%;
     margin-right: 3%;
+    width: max-content;
+    margin-right: 3%;
+    margin-bottom: 3%;
 }
 
 div.filtre ul li a
@@ -162,21 +162,24 @@ div.filtre ul li a
     border: rgb(217, 217, 217) 1px solid;
     border-radius: 50px;
     float: left;
-    width: max-content;
-    padding: 0.7em;
 }
 
-div.filtre ul li span
+div.filtre ul li span.text
 {
-    width: max-content;
     font-weight: bold;
+    float: right;
+    padding: 12px;
+    text-align: center;
 
 }
 
 ul i.fas
 {
     color: rgb(0, 101, 252);
-    margin-right: 20px;
-    background: rgb(222, 235, 255);
     border-radius: 50px;
+    float: left;
+    font-size: 15px;
+    padding: 1em;
+    background: rgb(222, 235, 255);
+    position: relative;
 }
