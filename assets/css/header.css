@@ -179,7 +179,8 @@ ul i.fas
     border-radius: 50px;
     float: left;
     font-size: 15px;
-    padding: 1em;
+    padding: 1.1em;
+    right: 2px;
     background: rgb(222, 235, 255);
     position: relative;
 }
