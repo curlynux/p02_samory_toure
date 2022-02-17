@@ -6,37 +6,25 @@
     font-family: 'Poppins';
 }
 
-header > img
+header
 {
-    width: 35%;
-    display: block;
-    padding: 0;
-    margin: auto;
-    
+    display: flex;
 }
 
 h1 
 {
-    float: left;
-    padding-left: 3%;
-    padding-top: 5%;
-    padding-bottom: 3%;
-    margin: 0;
     font-family: 'Poppins';
     font-size: 1.2em;
     font-weight: bold;
 }
 
-nav.head_nav li a
+header ul
 {
-    display: block;
-    list-style-type: none;
-    border-bottom: 3px solid grey;
-    padding: 10%;
-    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-nav.head_nav li a:hover
+nav.head_nav li:hover
 {
     color: #0165fb;
     font-weight: bold;
@@ -46,29 +34,30 @@ nav.head_nav li a:hover
 
 nav.head_nav li 
 {
-    display: block;
-    float: left;
-    text-align: center;
-    width: 50%;
+    border-bottom: 3px solid rgb(242, 242, 242);
     font-family: 'Poppins', sans-serif;
-    
+    width: 100%;
+    text-align: center;
+
+}
+
+nav.head_nav li a
+{
+    list-style-type: none;
+    width: 100%;
+    padding: 10%;
+    display: block;
+    text-decoration: none;
 }
 
 header p 
 {
-    float: left;
-    padding-left: 3%;
-    padding-bottom: 3%;
-    padding-top: 5%;
     
 }
 
 header form div
 {
-    padding-top: 5%;
-    margin-left: 3%;
-    display: inline-block;
-    width: 80%;
+   
 }
 
 header form input
@@ -86,31 +75,21 @@ header form input[type=text]
 
 header form div a.loop
 {
-    display: inline-block;
-    position: relative;
+    
     border: #0165fb 3px solid;
     background-color: #0165fb;
     border-radius: 35%;
-    width: 15%;
-    top: -49px;
-    float: right;
+    
 }
 
 header form div a img.image
 {
-    padding: 30%;
-    display: block;
-    position: relative;
-    width: 100%;
+   
 }
 
 header form div a.gps
 {
-    float: left;
-    display: inline-block;
-    position: relative;
-    width: 15%;
-    top: -49px;
+    
     background: #f2f2f2;
     border: #f2f2f2 3px solid;
     border-radius: 30%;
@@ -120,34 +99,24 @@ header form div a.gps
 
 header form div img.gps
 {
-    padding: 20%;
-    position: relative;
-    width: 100%;
-    display: block;
+   
 }
 
 div.test
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    
 }
 
 div.test div.item
 {
-    display: flex;
     border: rgb(217, 217, 217) 1px solid;
-    justify-content: space-between;
     border-radius: 2em;
-    width: max-content;
     
     
 }
 
 div.test a
 {
-    float: left;
 }
 
 div.test a span
@@ -159,7 +128,6 @@ div.test div.color
     background-color: rgb(222, 235, 255);
     border: rgb(222, 235, 255) 5px solid;
     border-radius: 100%;
-    float: left;
 }
 
 div.test img
@@ -167,6 +135,5 @@ div.test img
     width: 1.5em;
     height: 1.5em;
     align-items: flex-start;
-    float: left;
-    padding: 5%;
+
 }
