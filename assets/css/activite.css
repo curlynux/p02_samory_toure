@@ -1,11 +1,18 @@
+section h3
+{
+    margin-bottom: 3%;
+}
+
 section.am
 {
-    margin-left: 3%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 section.am div.item
 {
-    width: 90%;
+    margin-left: 3%;
+    width: 300px;
     border-bottom-left-radius: 1em;
     background: #FFFF;
     margin-bottom: 1.5em;

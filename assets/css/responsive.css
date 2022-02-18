@@ -20,7 +20,9 @@
         flex-wrap: nowrap;
     }
 
-    header ul li a
+    div.house
     {
+        display: flex;
+        flex-direction: column;
     }
   }

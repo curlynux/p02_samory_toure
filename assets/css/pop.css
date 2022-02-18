@@ -5,7 +5,7 @@ main
     flex-direction: column;
 }
 
-main section
+main aside
 {
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ main h3
     padding-bottom: 5%;
 }
 
-main section.pop
+main aside.pop
 {
     background: rgb(242, 242, 242);
     padding-top: 10%;
@@ -28,7 +28,7 @@ main section.pop
     flex-direction: column;
 }
 
-main section.pop div.pop
+main aside.pop div.pop
 {
     margin-bottom: 5%;
     background: #FFFF;
@@ -36,12 +36,13 @@ main section.pop div.pop
     border-radius: 1em;
     height: 8em;
     overflow: hidden;
-    width: 90%;
+    width: 330px;
+    max-width: 330px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-sizing: border-box;
 }
 
-main section.pop div.pop img
+main aside.pop div.pop img
 {
     float: left;
     height: 150px;
@@ -50,7 +51,7 @@ main section.pop div.pop img
     border-bottom-left-radius: 1em;
 }
 
-main section.pop div.pop div.text
+main aside.pop div.pop div.text
 {
     box-sizing: border-box;
     background: #FFFF;
@@ -64,7 +65,7 @@ main section.pop div.pop div.text
 
 
 
-main section.pop div.pop p:nth-child(1)
+main aside.pop div.pop p:nth-child(1)
 {
     font-size: 0.7em;
     font-weight: bold;
@@ -72,13 +73,13 @@ main section.pop div.pop p:nth-child(1)
     padding-bottom: 1%;
 }
 
-main section.pop div.pop p:nth-child(2)
+main aside.pop div.pop p:nth-child(2)
 {
     font-size: 0.7em;
     text-align: center;
 }
 
-main section.pop div.pop div.rate
+main aside.pop div.pop div.rate
 {
     margin-top: 40%;
     margin-left: 3%;

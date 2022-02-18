@@ -1,6 +1,7 @@
 .marseille
 {
     padding-left: 3%;
+    margin-top: 10%;
 }
 
 section.marseille a
@@ -12,27 +13,29 @@ div.house
 {
     margin-bottom: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 2em;
+    border-radius: 30px;
+    width: 320px;
+    background-color: white;
     border: 3px solid white;
     padding: 1%;
-    overflow-x: hidden;
 }
 
 div.house img
 {
-    width: 390px;
-    height: 170px;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 200px;
+    width: 350px;
 }
 
 .house_info
 {
     margin-left: 3%;
     border: 3px solid white;
-    float: left;
-
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 30px;
 }
 
 .house_info p:nth-child(1)
