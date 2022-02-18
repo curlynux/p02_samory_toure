@@ -22,11 +22,6 @@
     font-family: 'Poppins';
 }
 
-header
-{
-    display: flex;
-}
-
 header > img
 {
     display: flex;

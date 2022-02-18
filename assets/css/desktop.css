@@ -1,0 +1,23 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 700px)
+{
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header > img
+    {
+    }
+
+    header nav.head_nav
+    {
+    }
+
+    header h1
+    {
+    }
+}
