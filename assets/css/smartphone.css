@@ -13,6 +13,8 @@
 
     header > img
     {
+        display: flex;
+        align-self: center;
         width: 50%;
         height: 50%;
     }
@@ -21,6 +23,69 @@
     {
         display: flex;
         flex-wrap: nowrap;
+    }
+
+    nav.head_nav li:hover
+    {
+        color: #0165fb;
+        font-weight: bold;
+        transition: 1s;
+        border-bottom: #0165fb 3px solid;
+    }
+    
+    nav.head_nav li 
+    {
+        width: 100%;
+        border-bottom: 3px solid rgb(242, 242, 242);
+    }
+    
+    nav.head_nav li a
+    {
+        padding: 10%;
+    }
+
+    header h1
+    {
+        font-size: 1.2em;
+        margin-left: 5%;
+    }
+
+    header > p 
+    {
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    header form
+    {
+        margin-bottom: 10%;
+    }
+
+    div.filtre
+    {
+        margin-left: 5%;
+    }
+
+    div.filtre ul
+    {
+        display: inline-block;
+        margin-bottom: 10%;
+    }
+
+    header form input
+    {
+        width: 90%;
+        margin-left: 5%;
+        height: 50px;
+    }
+
+    header form div a.loop
+    {
+        margin-top: 0.1em;
+        margin-left: 5%;
+        padding: 0.7em;
+        left: 80%;
+        position: absolute;
     }
 
     div.house
