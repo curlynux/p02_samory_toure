@@ -72,21 +72,61 @@ and (min-width: 700px)
     header form
     {
         display: flex;
+        flex-basis: 100%;
+        width: 100%;
+        margin-top: 1%;
     }
 
     header form div.search
     {
-        flex-basis: 100%;
+        flex-basis: 40%;
+        width: 40%;
+    }
+
+    header form div a.gps
+    {
+        margin-top: 0.1em;
+        padding: 0.7em;
+    }
+
+    header form div a.loop
+    {    
+        margin-top: 0.1em;
+        position: relative;
+        right: 4em;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 0.7em;
     }
 
     header div.filtre
     {
         display: flex;
         flex-direction: row;
+        flex-basis: 70%;
+        margin-top: 3%;
     }
 
     div.filtre ul
     {
-        display: inline;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    p.info i.fas
+    {
+        margin-top: 10px;
+        margin-right: 20px;
+        
+    }
+    i.fa-magnifying-glass
+    {
+        display: none;
+    }
+
+    span.search
+    {
+        color: white;
+        font-weight: bold;
     }
 }

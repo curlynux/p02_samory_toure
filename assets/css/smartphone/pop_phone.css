@@ -1,0 +1,17 @@
+/* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
+
+@media only screen and (max-width: 500px)
+{
+    main
+    {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    main aside.pop
+    {
+        padding-top: 10%;
+        padding-left: 3%;
+        flex-direction: column;
+    }
+}

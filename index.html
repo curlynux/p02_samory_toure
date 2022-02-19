@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/normalize.css">
-        <link rel="alternate" href="./assets/css/main.css" type="application/atom+xml" title="Atom">
-        <link rel="stylesheet" href="./assets/css/rating.css">
-        <link rel="stylesheet" href="./assets/css/smartphone.css">
-        <link rel="stylesheet" href="./assets/css/desktop.css">
-        <link rel="stylesheet" href="./assets/css/header.css">
-        <link rel="stylesheet" href="./assets/css/pop.css">
-        <link rel="stylesheet" href="./assets/css/marseille_host.css">
-        <link rel="stylesheet" href="./assets/css/activite.css">
-        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/reset.css"/>
+        <link rel="stylesheet" href="./assets/css/normalize.css"/>
+        <link rel="alternate" href="./assets/css/main.css" type="application/atom+xml"/>
+        <link rel="stylesheet" href="./assets/css/rating.css" />
+        <link rel="stylesheet" href="./assets/css/smartphone/header_smartphone.css"/>
+        <link rel="stylesheet" href="./assets/css/desktop/header_desk.css"/>
+        <link rel="stylesheet" href="./assets/css/header.css"/>
+        <link rel="stylesheet" href="./assets/css/pop.css"/>
+        <link rel="stylesheet" href="./assets/css/smartphone/pop_phone.css"/>
+        <link rel="stylesheet" href="./assets/css/desktop/pop_desk.css"/>
+        <link rel="stylesheet" href="./assets/css/marseille_host.css"/>
+        <link rel="stylesheet" href="./assets/css/desktop/marseille_desk.css"/>
+        <link rel="stylesheet" href="./assets/css/smartphone/marseille_phone.css"/>
+        <link rel="stylesheet" href="./assets/css/activite.css"/>
+        <link rel="stylesheet" href="./assets/css/footer.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <script src="https://kit.fontawesome.com/d87e9d49a2.js" crossorigin="anonymous"></script>
         <title>Trouvez votre hebergement pour des vacances de reve</title>
@@ -38,6 +42,7 @@
                         <input type="text" name="search" id="search" placeholder="Marseille, France" />
                         <a href="#" class="loop">
                             <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="search">Recherche</span>
                         </a>
                         <a href="#" class="gps">
                             <i class="fa-solid fa-location-dot"></i>
@@ -46,12 +51,13 @@
                 </form>
                 <div class="filtre">
                     <ul>
+                        <li><span class="text" media="@media only screen (min-width: 500px)" >Filtres</span></li>
                         <li>
                             <a href="#">
                                 <span class="color">
                                     <i class="fas fa-money-bill-wave fa-lg "></i>
                                 </span>
-                                <span class="text">économie</span>
+                                <span class="text">Économie</span>
                             </a>
                         </li>
                         <li>
@@ -59,7 +65,7 @@
                                 <span class="color">
                                     <i class="fas fa-child fa-lg "></i>
                                 </span>
-                                <span class="text">famille</span>
+                                <span class="text">Famille</span>
                             </a>
                         </li>
                         <li>
@@ -67,7 +73,7 @@
                                 <span class="color">
                                     <i class="fas fa-heart fa-lg "></i>
                                 </span>
-                                <span class="text">romantique</span>
+                                <span class="text">Romantique</span>
                             </a>
                         </li>
                         <li>
@@ -76,7 +82,7 @@
                                     <i class="fas fa-dog fa-lg ">
                                     </i>
                                 </span>
-                                <span class="text">animaux domestique</span>
+                                <span class="text">Animaux domestique</span>
                             </a>
                         </li>
                     </ul>
@@ -91,7 +97,6 @@
             <main>
                 <aside class="pop">
                     <h3>Les plus populaires</h3>
-                    
                     <a href="#"></a>
                     <div class="pop">
                         <img src="./assets/img/hebergements/4_small/pop1.jpg" alt="Hotel Le soleil du matin">

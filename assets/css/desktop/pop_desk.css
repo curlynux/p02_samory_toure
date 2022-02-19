@@ -1,0 +1,17 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 700px)
+{
+    main
+    {
+        flex-direction: row-reverse;
+    }
+    main aside
+    {
+        flex-direction: column;
+        align-self: flex-start;
+        padding: 3%;
+        border-radius: 30px;
+    }
+}

@@ -1,0 +1,43 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 700px)
+{
+    section.marseille
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: flex-start;
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px;
+    }
+    
+    section.marseille h3
+    {
+        background-color: burlywood;
+    }
+
+    div.house
+    {
+        width: 250px;
+        height: 200px;
+    }
+
+    .house_info
+    {
+        padding: 3%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        position: relative;
+        bottom: 90px;
+        background-color: #FFFF;
+        width: 250px;
+        
+    }
+
+    section.marseille a
+    {
+        background-color: coral;
+    }
+}
