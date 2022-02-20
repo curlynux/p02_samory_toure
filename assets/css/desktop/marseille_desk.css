@@ -5,39 +5,33 @@ and (min-width: 700px)
 {
     section.marseille
     {
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px;
+        margin-right: 5%;
+        padding: 2%;
+    }
+
+    div.all_house
+    {
+        margin: 2%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-self: flex-start;
-        background-color: rgb(242, 242, 242);
-        border-radius: 20px;
-    }
-    
-    section.marseille h3
-    {
-        background-color: burlywood;
     }
 
     div.house
     {
-        width: 250px;
+        width: 220px;
         height: 200px;
     }
 
     .house_info
     {
-        padding: 3%;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
         position: relative;
         bottom: 90px;
         background-color: #FFFF;
         width: 250px;
         
-    }
-
-    section.marseille a
-    {
-        background-color: coral;
     }
 }
