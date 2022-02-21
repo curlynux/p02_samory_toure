@@ -1,0 +1,17 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 700px)
+{
+    footer
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2em;
+    }
+    footer div
+    {
+        justify-content: center;
+        align-content: space-between;
+    }
+}

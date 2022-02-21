@@ -1,0 +1,16 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 500px)
+{
+    footer div
+    {
+        padding-bottom: 1em;
+    }
+
+    footer div li
+    {
+        width: max-content;
+        margin: 1em;
+    }
+}
