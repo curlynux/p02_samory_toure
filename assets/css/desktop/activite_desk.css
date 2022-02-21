@@ -1,0 +1,71 @@
+/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+
+@media only screen
+and (min-width: 700px)
+{
+    section.am
+    {
+        border: 3px solid gold;
+        
+    }
+    div.all-activities
+    {
+        display: flex;
+        height: 650px;
+        align-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border: 3px solid crimson;
+    }
+
+    img.im1
+    {
+        display: none;
+    }
+
+    div.item
+    {
+        width: 300px;
+    }
+
+    .fp
+    {
+        height: 200px;
+        overflow: hidden;
+        
+    }
+
+    .fp .img2
+    {
+        height: 400px;
+        width: 100%;
+        position: relative;
+        bottom: 100px;
+    }
+
+    div.fpt
+    {
+        position: relative;
+        bottom: 255px;
+    }
+
+    .vp .img2
+    {
+        height: 500px;
+    }
+
+    .pnc .img2
+    {
+        height: 500px;
+    }
+
+    .if
+    {
+        width: 200%;
+    }
+
+    .fp
+    {
+    }
+}

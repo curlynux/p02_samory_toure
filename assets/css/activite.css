@@ -1,22 +1,16 @@
 section.am h3
 {
     font-weight: bold;
-    margin-bottom: 3%;
 }
 
 section.am
 {
     margin-top: 5%;
-    margin-left: 5%;
 }
 
 section.am div.item
 {
-    margin-left: 3%;
-    width: 300px;
-    border-bottom-left-radius: 1em;
     background: #FFFF;
-    margin-bottom: 1.5em;
     border-radius: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
@@ -24,10 +18,13 @@ section.am div.item
 
 section.am div.item img
 {
-    width: 400px;
-    height: 150px;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
+}
+
+img.img1
+{
+    display: none;
 }
 
 section.am div.item div.text

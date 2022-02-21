@@ -1,0 +1,36 @@
+/* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
+
+@media only screen and (max-width: 500px)
+{
+    section.am
+    {
+        margin-left: 5%;
+        display: flex;
+    }
+    section.am h3
+    {
+        margin-bottom: 3%;
+    }
+    
+    section.am div.item
+    {
+        margin-bottom: 1.5em;
+        width: 300px;
+    }
+    
+    section.am div.item img
+    {
+        width: 400px;
+        height: 150px;
+    }
+
+    img.img2
+    {
+        display: none;
+    }
+
+    img.img1
+    {
+        display: block;
+    }
+}
