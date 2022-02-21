@@ -27,6 +27,14 @@ and (min-width: 700px)
         width: 300px;
     }
 
+    div.item:hover
+    {
+        transform: scale(1.15);
+        transition: 300ms;
+        position: relative;
+        bottom: 30px;
+    }
+
     .fp
     {
         height: 200px;
