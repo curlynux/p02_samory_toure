@@ -54,7 +54,7 @@ and (min-width: 700px)
         height: 195px;
     }
 
-     div.text
+    div.all-activities  div.text
     {
         position: relative;
         bottom: 50px;
