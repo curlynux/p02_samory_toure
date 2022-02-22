@@ -7,14 +7,15 @@ and (min-width: 700px)
     {
         font-size: 2em;
     }
+
     div.all-activities
     {
         display: flex;
-        height: 650px;
-        align-content: space-between;
         flex-direction: column;
-        justify-content: space-around;
+        align-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
+        height: 600px;
     }
 
     img.im1
@@ -35,43 +36,56 @@ and (min-width: 700px)
         bottom: 30px;
     }
 
-    .fp
+    .height-high
     {
-        height: 200px;
+        height: 443px;
+        width: 301px;
+    }
+
+    .height-small
+    {
+        height: 235px;
+        width: 302px;
         overflow: hidden;
-        
     }
 
-    .fp .img2
+    div#ndg .img2, div#ndg
     {
-        height: 400px;
-        width: 100%;
-        position: relative;
-        bottom: 100px;
+        height: 195px;
     }
 
-    div.fpt
+     div.text
     {
         position: relative;
-        bottom: 255px;
+        bottom: 50px;
     }
 
-    .vp .img2
+    div#if img.img2, div#if
     {
-        height: 500px;
+        height: 165px;
     }
 
-    .pnc .img2
+    div#fp
     {
-        height: 500px;
+        overflow: hidden;
+        height: 270px;
     }
 
-    .if
+    div#fp img.img2
     {
-        width: 200%;
+        height: 370px;
+        position: relative;
+        bottom: 80px;
     }
 
-    .fp
+    div#fp div.text
     {
+        position: relative;
+        bottom: 150px;
+    }
+
+    div#pl img.img2, div#pl
+    {
+        height: 208px;
     }
 }

@@ -11,15 +11,14 @@ section.am
 section.am div.item
 {
     background: #FFFF;
-    border-radius: 2em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
 
 }
 
 section.am div.item img
 {
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    border-radius: 20px;
 }
 
 img.img1
@@ -32,6 +31,6 @@ section.am div.item div.text
     background: #FFFF;
     font-weight: bold;
     padding: 1em; 
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
