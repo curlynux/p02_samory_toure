@@ -6,11 +6,16 @@ main
 
 main aside
 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     background: rgb(242, 242, 242);
     box-sizing: content-box;
+}
+
+main aside div.all_pop
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 626px;
 }
 
 main aside h3
@@ -36,8 +41,8 @@ main aside.pop div.pop
 main aside.pop div.pop img
 {
     float: left;
-    height: 150px;
-    width: 150px;
+    height: 139px;
+    width: 132px;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
 }
@@ -46,12 +51,17 @@ main aside.pop div.pop div.text
 {
     box-sizing: border-box;
     background: #FFFF;
-    width: 40%;
+    width: 55%;
+    height: 120px;
+    display: flex;
     float: right;
+    padding: 1%;
+    justify-content: flex-start;
+    font-size: 1.3em;
+    text-align: center;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     flex-direction: column;
-    margin-right: 2em;
 }
 
 
@@ -72,9 +82,8 @@ main aside.pop div.pop p:nth-child(2)
 
 main aside.pop div.pop div.rate
 {
-    margin-top: 40%;
-    margin-left: 3%;
-    display: block;
+    font-size: 0.6em;
+    display: flex
 }
 
 div.white
