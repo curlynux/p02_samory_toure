@@ -22,10 +22,15 @@
     font-family: 'Poppins';
 }
 
-header ul
+header > ul
 {
     display: flex;
     flex-wrap: nowrap;
+}
+
+nav.head_nav ul
+{
+    display: flex;
 }
 
 nav.head_nav li:hover
@@ -104,6 +109,11 @@ header form div a.gps
     margin-top: 0.1em;
     padding: 0.7em;
     position: absolute;
+}
+
+div.filtre ul
+{
+    display: flex;
 }
 
 div.filtre ul li

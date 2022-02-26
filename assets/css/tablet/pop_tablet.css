@@ -1,11 +1,11 @@
-/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+/*  ----- TABLET BREAKPOINT MEDIA QUERY -----  */
 
 @media only screen
-and (min-width: 992px)
+and (max-width: 768px)
 {
     main
     {
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
     main aside
     {
@@ -14,5 +14,6 @@ and (min-width: 992px)
         padding: 3%;
         border-radius: 30px;
         height: 626px;
+        clear: right;
     }
 }

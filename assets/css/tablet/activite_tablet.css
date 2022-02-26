@@ -1,7 +1,7 @@
-/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+/*  ----- TABLET BREAKPOINT MEDIA QUERY -----  */
 
 @media only screen
-and (min-width: 992px)
+and (max-width: 768px)
 {
     section.am h3
     {
@@ -10,15 +10,14 @@ and (min-width: 992px)
 
     div.all-activities
     {
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
-        height: 600px;
+        align-items: center;
+        margin-top: 5%;
     }
 
-    img.im1
+    img.img1
     {
         display: none;
     }
@@ -76,6 +75,11 @@ and (min-width: 992px)
         height: 370px;
         position: relative;
         bottom: 80px;
+    }
+
+    div#pnc
+    {
+        margin-bottom: 10%;
     }
 
     div#fp div.text

@@ -1,10 +1,11 @@
-/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+/*  ----- TABLET BREAKPOINT MEDIA QUERY -----  */
 
 @media only screen
-and (min-width: 992px)
+and (max-width: 768px)
 {
     section.marseille
     {
+        margin-top: 5%;
         background-color: rgb(242, 242, 242);
         border-radius: 20px;
         margin-right: 5%;
@@ -13,6 +14,7 @@ and (min-width: 992px)
 
     div.all_house
     {
+        
         margin: 2%;
         display: flex;
         flex-wrap: wrap;
@@ -20,18 +22,20 @@ and (min-width: 992px)
         align-self: flex-start;
     }
 
+    div.house img
+    {
+        height: 110px;
+    }
+
     div.house
     {
-        width: 220px;
+        width: 250px;
         height: 200px;
     }
 
     .house_info
     {
-        position: relative;
-        bottom: 90px;
         background-color: #FFFF;
-        width: 250px;
         
     }
 }

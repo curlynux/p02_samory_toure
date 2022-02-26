@@ -1,7 +1,7 @@
-/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+/*  ----- TABLET BREAKPOINT MEDIA QUERY -----  */
 
 @media only screen
-and (min-width: 992px)
+and (max-width: 768px)
 {
     div.wrapper
     {
@@ -17,16 +17,14 @@ and (min-width: 992px)
 
     header img
     {
-        width: 14%;
+        width: 17%;
         padding: 3%;
     }
 
     nav.head_nav
     {
         display: flex;
-        float: right;
         flex:2;
-        justify-self: auto;
 
     }
 
@@ -48,13 +46,13 @@ and (min-width: 992px)
     
     nav.head_nav li 
     {
+        flex-wrap: wrap;
         width: 150px;
         border-top: 5px solid rgb(242, 242, 242);
     }
 
     nav.head_nav ul li a
     {
-
         padding-top: 30px;
     }
 
@@ -79,8 +77,8 @@ and (min-width: 992px)
 
     header form div.search
     {
-        flex-basis: 40%;
-        width: 40%;
+        flex-basis: 70%;
+        width: 70%;
     }
 
     header form div a.gps
@@ -103,7 +101,7 @@ and (min-width: 992px)
     {
         display: flex;
         flex-direction: row;
-        flex-basis: 70%;
+        flex-basis: 100%;
         margin-top: 3%;
     }
 
@@ -111,6 +109,12 @@ and (min-width: 992px)
     {
         width: 100%;
         justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    div.filtre ul li
+    {
+        margin-bottom: 3%;
     }
 
     p.info i.fas

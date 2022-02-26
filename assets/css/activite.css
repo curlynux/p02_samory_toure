@@ -8,6 +8,11 @@ section.am
     margin-top: 5%;
 }
 
+div.all-activities
+{
+    display: flex;
+}
+
 section.am div.item
 {
     background: #FFFF;
@@ -18,12 +23,19 @@ section.am div.item
 
 section.am div.item img
 {
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 img.img1
 {
     display: none;
+}
+
+div.height-high img
+{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 section.am div.item div.text
