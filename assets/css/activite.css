@@ -11,6 +11,7 @@ section.am
 div.all-activities
 {
     display: flex;
+    flex-direction: column;
 }
 
 section.am div.item
@@ -45,8 +46,6 @@ div.height-high img
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     max-width: none;
-    right: 140px;
-    position: relative;
 }
 
 div.height-high

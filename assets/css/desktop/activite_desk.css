@@ -11,11 +11,11 @@ and (min-width: 992px)
 
     div.all-activities
     {
-        flex-direction: column;
         align-content: space-between;
         justify-content: space-evenly;
         flex-wrap: wrap;
         height: 600px;
+        font-weight: bold;
     }
 
     img.img1
@@ -35,6 +35,12 @@ and (min-width: 992px)
         height: 235px;
         width: 302px;
         overflow: hidden;
+    }
+
+    div.height-high .img2
+    {
+        right: 140px;
+        position: relative;
     }
 
     div#ndg .img2, div#ndg
