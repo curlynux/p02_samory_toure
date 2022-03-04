@@ -3,6 +3,11 @@ div.rate i.active
     color: rgb(0, 101, 252);
 }
 
+div.rate i.inactive
+{
+    color: rgba(217,217,217,255);
+}
+
 .star-rating
 {
 	font-size: 0;

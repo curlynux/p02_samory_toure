@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
@@ -19,7 +18,7 @@
 
 * 
 {
-    font-family: 'Poppins';
+    font-family: 'Raleway', sans-serif;
 }
 
 header > ul
@@ -33,10 +32,15 @@ nav.head_nav ul
     display: flex;
 }
 
+nav.head_nav li:nth-child(1)
+{
+    color: #0165fb;
+    transition: 1s;
+}
+
 nav.head_nav li:hover
 {
     color: #0165fb;
-    font-weight: bold;
     transition: 1s;
 }
 
@@ -109,11 +113,6 @@ header form div a.gps
     margin-top: 0.1em;
     padding: 0.7em;
     position: absolute;
-}
-
-div.filtre ul
-{
-    display: flex;
 }
 
 div.filtre ul li

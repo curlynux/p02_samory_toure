@@ -1,7 +1,7 @@
-/*  ----- DESKTOP BREAKPOINT MEDIA QUERY -----  */
+/*  ----- SMARTPHONE BREAKPOINT MEDIA QUERY -----  */
 
 @media only screen
-and (min-width: 500px)
+and (max-width: 500px)
 {
     footer div
     {

@@ -32,10 +32,27 @@ img.img1
     display: none;
 }
 
+div.item:hover
+{
+    transform: scale(1.15);
+    transition: 300ms;
+    position: relative;
+    bottom: 30px;
+}
+
 div.height-high img
 {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    max-width: none;
+    right: 140px;
+    position: relative;
+}
+
+div.height-high
+{
+    width: 302px;
+    overflow: hidden;
 }
 
 section.am div.item div.text
