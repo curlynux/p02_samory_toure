@@ -55,16 +55,14 @@ main aside.pop div.pop div.text
     height: 120px;
     display: flex;
     float: right;
-    padding: 1%;
+    padding: 3%;
     justify-content: flex-start;
-    font-size: 1.3em;
-    text-align: center;
+    font-size: 1.4em;
+    text-align: start;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
     flex-direction: column;
 }
-
-
 
 main aside.pop div.pop p:nth-child(1)
 {
@@ -83,7 +81,8 @@ main aside.pop div.pop p:nth-child(2)
 main aside.pop div.pop div.rate
 {
     font-size: 0.6em;
-    display: flex
+    display: flex;
+    margin-top: 30px;
 }
 
 div.white
