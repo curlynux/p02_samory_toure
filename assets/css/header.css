@@ -33,12 +33,6 @@ nav.head_nav ul
     display: flex;
 }
 
-nav.head_nav li:nth-child(1)
-{
-    color: #0165fb;
-    transition: 1s;
-}
-
 nav.head_nav li:hover
 {
     color: #0165fb;
