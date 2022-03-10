@@ -1,27 +1,32 @@
-section.marseille h2
-{
-    font-weight: bold;
-}
-
 section.marseille a
 {
     font-weight: bold;
+    font-size: 1.2em;
+    position: relative;
+    left: 30px;
 }
 
 div.house
 {
     margin-bottom: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 30px;
+    border-radius: 15px;
     background-color: white;
-    border: 3px solid white;
+    border: 5px solid white;
     overflow: hidden;
+}
+
+div.house:hover
+{
+    transform: scale(1.1);
+    transition: 300ms;
+    border-color: rgb(222, 235, 255);
 }
 
 div.house img
 {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 200px;
     width: 350px;
 }
@@ -40,7 +45,13 @@ div.house img
     padding-bottom: 1%;
 }
 
+.house_info p:nth-child(2)
+{
+    font-weight: 300;
+}
+
 .house_info div.rate
 {
     padding-top: 2%;
+    font-size: 0.7em;
 }

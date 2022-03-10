@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
@@ -116,11 +117,17 @@ div.filtre ul li
     width: max-content;
 }
 
+div.filtre ul li a:hover
+{
+    background: rgb(222, 235, 255);
+}
+
 div.filtre ul li a
 {
-    border: rgb(217, 217, 217) 1px solid;
+    border: rgb(217, 217, 217) 2px solid;
     border-radius: 50px;
     float: left;
+    
 }
 
 ul i.fas
@@ -131,6 +138,7 @@ ul i.fas
     padding: 1.1em;
     background: rgb(222, 235, 255);
     position: relative;
+    right: 3px;
 }
 
 div.filtre ul li span.text
@@ -142,17 +150,16 @@ div.filtre ul li span.text
 
 }
 
-span.border
+p.info
 {
-    margin-right: 3%;
-    border: rgb(217, 217, 217) 1px solid;
-    border-radius: 100px;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 i.fa-info
 {
     color: rgb(0, 101, 252);
-    border-radius: 30px / 30px;
     border: rgb(217, 217, 217) 1px solid;
     padding: 10px;
+    border-radius: 50px;
 }

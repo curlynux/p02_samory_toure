@@ -18,30 +18,49 @@ main aside div.all_pop
     height: 626px;
 }
 
-main aside h3
+aside span
+{
+    font-weight: bold;
+}
+
+main aside h2
 {
     margin-bottom: 5%;
     font-weight: bold;
+    font-size: 1.5em;
+}
+
+aside h2 i
+{
+    position: absolute;
+    right: 120px;
 }
 
 main aside.pop div.pop
 {
     margin-bottom: 5%;
     background: #FFFF;
-    border: 5px solid #fff;
+    border: 5px solid #FFFF;
     border-radius: 1em;
     height: 8em;
+    height: 144px;
     overflow: hidden;
-    width: 330px;
-    max-width: 330px;
+    width: 343px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-sizing: border-box;
+}
+
+div.pop:hover
+{
+    transform: scale(1.1);
+    transition: 300ms;
+    border-color: rgb(222, 235, 255);
 }
 
 main aside.pop div.pop img
 {
     float: left;
-    height: 139px;
+    height: 180px;
     width: 132px;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
@@ -49,40 +68,27 @@ main aside.pop div.pop img
 
 main aside.pop div.pop div.text
 {
-    box-sizing: border-box;
-    background: #FFFF;
-    width: 55%;
-    height: 120px;
     display: flex;
-    float: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
     padding: 3%;
-    justify-content: flex-start;
-    font-size: 1.4em;
-    text-align: start;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    flex-direction: column;
 }
 
 main aside.pop div.pop p:nth-child(1)
 {
-    font-size: 0.7em;
     font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
+    font-size: 1.1em;
 }
 
 main aside.pop div.pop p:nth-child(2)
 {
-    font-size: 0.7em;
-    text-align: center;
+    font-weight: 300;
 }
 
 main aside.pop div.pop div.rate
 {
-    font-size: 0.6em;
-    display: flex;
-    margin-top: 30px;
+    align-self: flex-end;
 }
 
 div.white

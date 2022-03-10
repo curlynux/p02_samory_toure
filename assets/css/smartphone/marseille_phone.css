@@ -10,13 +10,16 @@
 
     div.house
     {
-        width: 320px;
+        width: 335px;
+        height: 199px;
         padding: 1%;
     }
     div.house_info
     {
-        margin-left: 3%;
         padding: 3%;
-        border-radius: 30px;
+        position: relative;
+        bottom: 90px;
+        border: 10px solid #FFF;
+        background: #FFFF;
     }
 }

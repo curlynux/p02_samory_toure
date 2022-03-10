@@ -7,23 +7,34 @@ and (min-width: 992px)
     {
         background-color: rgb(242, 242, 242);
         border-radius: 20px;
-        margin-right: 5%;
-        padding: 2%;
+        margin-right: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
+    section.marseille h2
+    {
+        float: right;
+        position: relative;
+        font-weight: bold;
+        font-size: 1.5em;
+        top: 40px;
+        left: 30px;
+    }
+    
     div.all_house
     {
-        margin: 2%;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-self: flex-start;
     }
 
     div.house
     {
-        width: 220px;
-        height: 200px;
+        width: 246px;
+        height: 199px;
     }
 
     .house_info
@@ -32,6 +43,5 @@ and (min-width: 992px)
         bottom: 90px;
         background-color: #FFFF;
         width: 250px;
-        
     }
 }
