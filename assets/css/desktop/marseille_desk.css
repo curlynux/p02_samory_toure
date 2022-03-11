@@ -8,27 +8,15 @@ and (min-width: 992px)
         background-color: rgb(242, 242, 242);
         border-radius: 20px;
         margin-right: 3%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    section.marseille h2
-    {
-        float: right;
-        position: relative;
-        font-weight: bold;
-        font-size: 1.5em;
-        top: 40px;
-        left: 30px;
     }
     
     div.all_house
     {
         display: flex;
         flex-direction: row;
+        height: 80%;
+        justify-content: space-between;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 
     div.house

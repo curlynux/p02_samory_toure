@@ -1,25 +1,40 @@
 /* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 760px)
 {
     section.marseille
     {
         margin: 0 auto;
         margin-top: 10%;
     }
-
+    section.marseille h2
+    {
+        margin-bottom: 5%;
+    }
     div.house
     {
         width: 335px;
         height: 199px;
-        padding: 1%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+
+    div.house img
+    {
+        position: absolute;
+        bottom: 20px;
     }
     div.house_info
     {
-        padding: 3%;
-        position: relative;
-        bottom: 90px;
+        position: absolute;
         border: 10px solid #FFF;
         background: #FFFF;
+        padding: 1%;  
+        top: 105px;
+    }
+
+    section.marseille a
+    {
+        display: none;
     }
 }

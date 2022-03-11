@@ -2,8 +2,6 @@ section.marseille a
 {
     font-weight: bold;
     font-size: 1.2em;
-    position: relative;
-    left: 30px;
 }
 
 section.marseille h2
@@ -12,9 +10,16 @@ section.marseille h2
     font-weight: bold;
 }
 
+section.marseille
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
 div.house
 {
-    margin-bottom: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
     background-color: white;
@@ -43,6 +48,7 @@ div.house img
     display: flex;
     flex-direction: column;
     padding: 3%;
+    width: 100%;
 }
 
 .house_info p:nth-child(1)

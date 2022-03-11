@@ -1,6 +1,6 @@
 /* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 760px) {
     header
     {
         display: flex;
@@ -18,9 +18,14 @@
     header ul
     {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
     }
 
+    #filtre
+    {
+        margin-right: 250px;
+    }
     nav.head_nav li:hover
     {
         color: #0165fb;
@@ -31,7 +36,7 @@
     
     nav.head_nav li 
     {
-        width: 100%;
+        width: 50%;
         border-bottom: 3px solid rgb(242, 242, 242);
     }
     
@@ -65,12 +70,6 @@
     div.filtre
     {
         margin-left: 5%;
-    }
-
-    div.filtre ul
-    {
-        display: inline-block;
-        margin-bottom: 10%;
     }
 
     div.filtre ul li
