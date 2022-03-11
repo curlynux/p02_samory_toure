@@ -6,6 +6,12 @@ section.marseille a
     left: 30px;
 }
 
+section.marseille h2
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 div.house
 {
     margin-bottom: 2em;
