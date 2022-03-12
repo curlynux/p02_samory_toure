@@ -8,13 +8,13 @@ and (min-width: 992px)
         background-color: rgb(242, 242, 242);
         border-radius: 20px;
         margin-right: 3%;
-        height: 626px;
         width: 880px;
         padding: 30px;
     }
     section.marseille h2
     {
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     
     div.all_house
