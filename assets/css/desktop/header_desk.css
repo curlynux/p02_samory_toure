@@ -5,14 +5,16 @@ and (min-width: 992px)
 {
     div.wrapper
     {
-        width: 90%;
+        width: 100%;
+        max-width: 1500px;
         margin: 0 auto;
-        padding: 0 auto;
     }
     header
     {
         display: flex;
         flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
     }
 
     header img

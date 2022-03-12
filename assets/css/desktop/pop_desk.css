@@ -7,12 +7,27 @@ and (min-width: 992px)
     {
         flex-direction: row-reverse;
     }
+
     main aside
     {
         flex-direction: column;
         align-self: flex-start;
-        padding: 3%;
         border-radius: 30px;
         height: 626px;
+    }
+
+    main aside div.all_pop
+    {
+        padding: 40px;
+    }
+
+    aside .pop
+    {
+        margin-bottom: 10%;
+    }
+
+    aside .pop:nth-child(4)
+    {
+        margin-bottom: 0;
     }
 }

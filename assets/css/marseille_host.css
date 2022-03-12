@@ -1,3 +1,14 @@
+main
+{
+    justify-content: center;
+}
+
+section.marseille
+{
+    display: flex;
+    flex-direction: column;
+}
+
 section.marseille a
 {
     font-weight: bold;
@@ -10,12 +21,10 @@ section.marseille h2
     font-weight: bold;
 }
 
-section.marseille
+div.all_house
 {
+    max-width: 900px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 2%;
 }
 
 div.house
@@ -25,6 +34,7 @@ div.house
     background-color: white;
     border: 5px solid white;
     overflow: hidden;
+    position: relative;
 }
 
 div.house:hover
@@ -40,6 +50,7 @@ div.house img
     border-top-right-radius: 15px;
     height: 200px;
     width: 350px;
+    position: absolute;
 }
 
 .house_info
@@ -47,8 +58,11 @@ div.house img
     border: 3px solid white;
     display: flex;
     flex-direction: column;
+    background: #FFFF;
     padding: 3%;
     width: 100%;
+    position: absolute;
+    top: 115px;
 }
 
 .house_info p:nth-child(1)

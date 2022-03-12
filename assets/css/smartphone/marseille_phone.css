@@ -18,19 +18,18 @@
         margin-bottom: 5%;
         position: relative;
     }
-
-    div.house img
-    {
-        position: absolute;
-        bottom: 20px;
-    }
+    
     div.house_info
     {
-        position: absolute;
         border: 10px solid #FFF;
         background: #FFFF;
         padding: 1%;  
         top: 105px;
+    }
+
+    div.house img
+    {
+        bottom: 10px;
     }
 
     section.marseille a

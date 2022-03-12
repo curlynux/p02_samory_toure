@@ -39,11 +39,9 @@ aside h2 i
 
 main aside.pop div.pop
 {
-    margin-bottom: 5%;
     background: #FFFF;
     border: 5px solid #FFFF;
     border-radius: 1em;
-    height: 8em;
     height: 144px;
     overflow: hidden;
     width: 343px;
