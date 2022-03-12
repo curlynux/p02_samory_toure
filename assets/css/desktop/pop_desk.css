@@ -24,6 +24,7 @@ and (min-width: 992px)
     main aside div.all_pop
     {
         padding: 40px;
+        flex-direction: column;
     }
 
     aside .pop

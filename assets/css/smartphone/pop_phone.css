@@ -1,6 +1,6 @@
 /* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
 
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 767px)
 {
     main
     {
@@ -8,14 +8,25 @@
         flex-direction: column;
     }
 
-    main aside.pop
+    main aside
     {
         padding-left: 3%;
         flex-direction: column;
     }
 
+    aside, div.all_pop
+    {
+        flex-direction: column;
+        height: 580px;
+    }
+
     main aside div.all_pop
     {
         justify-content: space-evenly;
+    }
+
+    div.all_pop h2 i
+    {
+        right: 40px;
     }
 }

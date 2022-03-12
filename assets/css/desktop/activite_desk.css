@@ -3,6 +3,12 @@
 @media only screen
 and (min-width: 992px)
 {
+    section#am
+    {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
     
     section.am h3
     {

@@ -30,7 +30,7 @@ div.all_house
 div.house
 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: white;
     border: 5px solid white;
     overflow: hidden;
@@ -46,8 +46,8 @@ div.house:hover
 
 div.house img
 {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     height: 200px;
     width: 350px;
     position: absolute;

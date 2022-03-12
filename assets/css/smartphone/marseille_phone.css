@@ -1,16 +1,18 @@
 /* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
 
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 767px)
 {
     section.marseille
     {
         margin: 0 auto;
         margin-top: 10%;
     }
+
     section.marseille h2
     {
         margin-bottom: 5%;
     }
+
     div.house
     {
         width: 335px;
@@ -21,15 +23,20 @@
     
     div.house_info
     {
-        border: 10px solid #FFF;
         background: #FFFF;
-        padding: 1%;  
+        padding: 3%;  
         top: 105px;
+    }
+
+    div.all_house
+    {
+        flex-direction: column;
     }
 
     div.house img
     {
-        bottom: 10px;
+        bottom: 40px;
+        object-fit: cover;
     }
 
     section.marseille a

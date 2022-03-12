@@ -1,6 +1,5 @@
 main
 {
-    margin-top: 5%;
     display: flex;
 }
 
@@ -14,8 +13,6 @@ main aside
 main aside div.all_pop
 {
     display: flex;
-    flex-direction: column;
-    height: 626px;
 }
 
 aside span
@@ -31,8 +28,8 @@ main aside h2
 
 aside h2 i
 {
-    position: relative;
-    left: 70px;
+    position: absolute;
+    right: 90px;
 }
 
 main aside.pop div.pop

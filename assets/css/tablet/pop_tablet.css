@@ -8,13 +8,33 @@ and (max-width: 992px)
     {
         flex-direction: column;
     }
+
     main aside
     {
-        flex-direction: column;
+        flex-direction: row;
         align-self: flex-start;
-        padding: 3%;
+        flex-wrap: wrap;
         border-radius: 30px;
-        height: 626px;
-        clear: right;
+        background: none;
+        position: relative;
+        top: 30px;
+        margin-bottom: 30px;
+    }
+
+    aside h2
+    {
+        position: absolute;
+        top: -50px;
+    }
+
+    aside h2 i
+    {
+        left: 250px;
+    }
+
+    aside div.all_pop
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

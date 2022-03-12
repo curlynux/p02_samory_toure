@@ -1,6 +1,6 @@
 /* ----- SMARTPHONE BREAKPOINT MEDIA QUERY ----- */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
     header
     {
         display: flex;
@@ -24,7 +24,7 @@
 
     #filtre
     {
-        margin-right: 250px;
+        margin-right: 150px;
     }
     nav.head_nav li:hover
     {
