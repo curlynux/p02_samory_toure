@@ -22,3 +22,8 @@
 @import url("./css/smartphone/pop_phone.css");
 @import url("./css/smartphone/activite_phone.css");
 @import url("./css/smartphone/footer_phone.css");
+
+main img, #am img
+{
+    object-fit: cover;
+}
