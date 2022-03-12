@@ -14,7 +14,6 @@ main aside
 main aside div.all_pop
 {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     height: 626px;
 }
@@ -26,9 +25,8 @@ aside span
 
 main aside h2
 {
-    margin-bottom: 5%;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 aside h2 i

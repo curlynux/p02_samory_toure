@@ -8,6 +8,11 @@ and (min-width: 992px)
         flex-direction: row-reverse;
     }
 
+    main aside h2
+    {
+        margin-bottom: 5%;
+    }
+
     main aside
     {
         flex-direction: column;
