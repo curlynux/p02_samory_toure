@@ -1,6 +1,9 @@
-section.am h3
+section.am h2
 {
     font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 1%;
+    margin-top: 3%;
 }
 
 section.am
