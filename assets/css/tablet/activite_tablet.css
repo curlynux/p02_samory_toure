@@ -4,6 +4,12 @@
 and (min-width: 768px)
 and (max-width: 992px)
 {
+    section.am
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     section.am h3
     {
         font-size: 2em;

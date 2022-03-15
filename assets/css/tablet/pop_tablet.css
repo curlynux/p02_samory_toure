@@ -4,9 +4,17 @@
 and (min-width: 768px)
 and (max-width: 992px)
 {
+    div.wrapper
+    {
+        width: 100%;
+    }
+
     main
     {
+        justify-content: center;
         flex-direction: column;
+        width: 100%;
+        margin-left: 3%;
     }
 
     main aside
@@ -36,5 +44,11 @@ and (max-width: 992px)
     {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    aside div.pop:nth-child(2)
+    {
+        margin-right: 2%;
+        margin-bottom: 2%;
     }
 }

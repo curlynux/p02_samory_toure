@@ -13,6 +13,7 @@ and (max-width: 992px)
     {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 3%;
     }
 
     header img
